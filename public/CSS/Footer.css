@@ -1,0 +1,19 @@
+.contacto
+{
+    background-color: rgba(36, 129, 216, 0.884);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto p, h3
+{
+    font-size: 0.7em;
+    
+
+}
+
+.contacto p
+{
+    margin: 3px;
+}

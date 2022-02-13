@@ -1,0 +1,162 @@
+*{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+/*FECHAS*/ 
+
+.todaslasfechas
+{
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 40px;
+}
+.fechas 
+{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fechas div
+{
+    height: 100%;
+    height: 300px;
+    background-color: rgba(4, 21, 250, 0.479);
+    text-align:center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.fechas h2 
+{
+    background-color: rgba(218, 219, 231, 0.788)
+}
+
+.fechas h3 
+{
+    background-color: rgba(218, 219, 231, 0.788)
+}
+
+.fechas p
+{
+    margin-top: 100px;
+    background-color: rgba(218, 219, 231, 0.788)
+}
+
+
+.fechas .fecha1
+{
+    background-image: url(../Img/fede.jpg.jpeg);
+    margin-top: 10px;
+}
+
+.fechas .fecha2
+{
+    background-image: url(../Img/seba.jpg.jpeg);
+    margin-top: 10px;
+}
+.fechas .fecha3
+{
+    background-image: url(../Img/niidea.jpg.jpeg);
+    margin-top: 10px;
+}
+.fechas .fecha4
+{
+    background-image: url(../Img/nose.jpg.jpeg);
+    margin-top: 10px;
+}
+
+.fechas .fecha5
+{
+    background-image: url(../Img/masquemenos.jpg);
+    margin-top: 10px;
+}
+
+.fechas .fecha6
+{
+    background-image: url(../Img/elthiagooo.jpg);
+    margin-top: 10px;
+}
+
+.fechas .fecha7
+{
+    background-image: url(../Img/wachooo.jpg);
+    margin-top: 10px;
+}
+
+.tabla{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.div-tabla{
+    width: 90%;
+    margin: 20px auto;
+    height: 610px;
+    justify-content: center;
+    background: url(../Img/Tabla.png) no-repeat center center/cover;
+}
+
+
+
+@media (max-width: 825.15px){
+
+    .div-tabla{
+        width: 95%;
+        height: 450px;
+    }
+}
+
+@media (max-width: 757px){
+    .div-tabla{
+        width: 99%;
+        height: 440px;
+    }
+}
+
+@media (max-width: 665px){
+    .div-tabla{
+        width: 99%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 610px){
+    .div-tabla{
+        width: 99%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 560px){
+    .div-tabla{
+        width: 99%;
+        height: 319px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .div-tabla{
+        width: 99%;
+        height: 225px;
+    }
+}

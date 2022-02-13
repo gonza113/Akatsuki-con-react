@@ -1,0 +1,66 @@
+*{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+/*INGRESO*/
+
+.ingreso
+{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: red;
+    font-size: 1.7em;
+}
+
+.formulario
+{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    background-image: url(../Img/miembros\ de\ akatsuki.jpg.jpg);
+    background-position: relative;
+    height: 630px;
+    padding: 1px;
+    justify-content: start;
+}
+
+
+.formulario h2
+{
+    margin-bottom: 70px;
+    color: black;
+}
+
+.formulario div
+{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+
+.formulario p
+{
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+
+
+
+@media (max-width: 479px){
+    .ingreso{
+    margin-top: 60px;
+    }
+}
