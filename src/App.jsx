@@ -1,8 +1,7 @@
-import { Home } from './Home';
-import { Integrantes } from "./Integrantes";
-import { Formulariodeingreso } from './Form';
-import { Fechas } from './Dates';
-/*import { useState } from "react";*/
+import { Home } from './components/Home';
+import { Integrantes } from "./components/Integrantes";
+import { Formulariodeingreso } from './components/Form';
+import { Fechas } from './components/Dates';
 import { Route, Routes } from "react-router-dom";
 
 
@@ -15,4 +14,4 @@ export function App() {
             <Route path="Fechas" element={<Fechas />} />
         </Routes>
     </div>
-}m 
+}

@@ -1,7 +1,7 @@
 import { Header } from './Header';
 import { Footer } from './Footer';
-import  plantel from './assets/ima/plantel.jpeg';
-import imagenes from './assets/imagenes';
+import  plantel from '../assets/ima/plantel.jpeg';
+import imagenes from '../assets/imagenes';
 
 export function Home() {
     return <div>

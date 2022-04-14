@@ -1,6 +1,6 @@
 import { Header } from './Header';
 import { Footer } from './Footer';
-import imagenes from './assets/imagenes';
+import imagenes from '../assets/imagenes';
 import { Jugador } from './Jugador'
 
 
