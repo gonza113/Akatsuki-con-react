@@ -6,8 +6,8 @@ export function Jugador (props){
         </div>
         <div className="jug2">
             <p><strong>{props.nombre}</strong></p>
-            <p>- {props.edad}</p>
-            <p>- {props.numero}</p>
+            <p>- {props.edad} Años</p>
+            <p>- Número {props.numero}</p>
         </div>
     </div>);
 }
