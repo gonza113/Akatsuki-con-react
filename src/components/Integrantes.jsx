@@ -2,7 +2,7 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import imagenes from '../assets/imagenes';
 import { Jugador } from './Jugador'
-
+import { api } from "../api/api"
 
 export function Integrantes() {
     return <div>
