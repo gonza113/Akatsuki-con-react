@@ -35,7 +35,7 @@ export function Formulariodeingreso() {
         setLoading(true);
         
         //Llamar un POST con axios a /formularios-api y mandar la info en el etado actual
-        api.post('/integrantes-api', formData).then((response) => {
+        api.post('/formularios', formData).then((response) => {
                 console.log(response)
 
                 //Cambia el estado a loading a false
